@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB170B1119DE4C4F00F70DA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB170B1019DE4C4F00F70DA9 /* main.m */; };
+		EB170B1419DE4C4F00F70DA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB170B1319DE4C4F00F70DA9 /* AppDelegate.m */; };
+		EB170B1A19DE4C4F00F70DA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB170B1819DE4C4F00F70DA9 /* Main.storyboard */; };
+		EB170B1C19DE4C4F00F70DA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB170B1B19DE4C4F00F70DA9 /* Images.xcassets */; };
+		EB170B1F19DE4C4F00F70DA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB170B1D19DE4C4F00F70DA9 /* LaunchScreen.xib */; };
+		EB170B2B19DE4C4F00F70DA9 /* demo_colorChangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB170B2A19DE4C4F00F70DA9 /* demo_colorChangeTests.m */; };
+		EB170B3919DE4D7700F70DA9 /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = EB170B3819DE4D7700F70DA9 /* Notification.m */; };
+		EB170B3C19DE4F8600F70DA9 /* bgColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EB170B3B19DE4F8600F70DA9 /* bgColor.m */; };
+		EBF97C2E19E12AC900509C39 /* bgColor_kvo.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF97C2B19E12AC900509C39 /* bgColor_kvo.m */; };
+		EBF97C2F19E12AC900509C39 /* KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF97C2D19E12AC900509C39 /* KVO.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB170B2519DE4C4F00F70DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB170B0319DE4C4F00F70DA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB170B0A19DE4C4F00F70DA9;
+			remoteInfo = "demo-colorChange";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB170B0B19DE4C4F00F70DA9 /* demo-colorChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demo-colorChange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB170B0F19DE4C4F00F70DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB170B1019DE4C4F00F70DA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB170B1219DE4C4F00F70DA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB170B1319DE4C4F00F70DA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB170B1919DE4C4F00F70DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB170B1B19DE4C4F00F70DA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB170B1E19DE4C4F00F70DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EB170B2419DE4C4F00F70DA9 /* demo-colorChangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "demo-colorChangeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB170B2919DE4C4F00F70DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB170B2A19DE4C4F00F70DA9 /* demo_colorChangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demo_colorChangeTests.m; sourceTree = "<group>"; };
+		EB170B3719DE4D7700F70DA9 /* Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
+		EB170B3819DE4D7700F70DA9 /* Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notification.m; sourceTree = "<group>"; };
+		EB170B3A19DE4F8600F70DA9 /* bgColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bgColor.h; sourceTree = "<group>"; };
+		EB170B3B19DE4F8600F70DA9 /* bgColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bgColor.m; sourceTree = "<group>"; };
+		EBF97C2A19E12AC900509C39 /* bgColor_kvo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bgColor_kvo.h; sourceTree = "<group>"; };
+		EBF97C2B19E12AC900509C39 /* bgColor_kvo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bgColor_kvo.m; sourceTree = "<group>"; };
+		EBF97C2C19E12AC900509C39 /* KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVO.h; sourceTree = "<group>"; };
+		EBF97C2D19E12AC900509C39 /* KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVO.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB170B0819DE4C4F00F70DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB170B2119DE4C4F00F70DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB170B0219DE4C4F00F70DA9 = {
+			isa = PBXGroup;
+			children = (
+				EB170B0D19DE4C4F00F70DA9 /* demo-colorChange */,
+				EB170B2719DE4C4F00F70DA9 /* demo-colorChangeTests */,
+				EB170B0C19DE4C4F00F70DA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB170B0C19DE4C4F00F70DA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB170B0B19DE4C4F00F70DA9 /* demo-colorChange.app */,
+				EB170B2419DE4C4F00F70DA9 /* demo-colorChangeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB170B0D19DE4C4F00F70DA9 /* demo-colorChange */ = {
+			isa = PBXGroup;
+			children = (
+				EB170B1219DE4C4F00F70DA9 /* AppDelegate.h */,
+				EB170B1319DE4C4F00F70DA9 /* AppDelegate.m */,
+				EB170B3A19DE4F8600F70DA9 /* bgColor.h */,
+				EB170B3B19DE4F8600F70DA9 /* bgColor.m */,
+				EBF97C2A19E12AC900509C39 /* bgColor_kvo.h */,
+				EBF97C2B19E12AC900509C39 /* bgColor_kvo.m */,
+				EB170B3719DE4D7700F70DA9 /* Notification.h */,
+				EB170B3819DE4D7700F70DA9 /* Notification.m */,
+				EBF97C2C19E12AC900509C39 /* KVO.h */,
+				EBF97C2D19E12AC900509C39 /* KVO.m */,
+				EB170B1819DE4C4F00F70DA9 /* Main.storyboard */,
+				EB170B1B19DE4C4F00F70DA9 /* Images.xcassets */,
+				EB170B1D19DE4C4F00F70DA9 /* LaunchScreen.xib */,
+				EB170B0E19DE4C4F00F70DA9 /* Supporting Files */,
+			);
+			path = "demo-colorChange";
+			sourceTree = "<group>";
+		};
+		EB170B0E19DE4C4F00F70DA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB170B0F19DE4C4F00F70DA9 /* Info.plist */,
+				EB170B1019DE4C4F00F70DA9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB170B2719DE4C4F00F70DA9 /* demo-colorChangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB170B2A19DE4C4F00F70DA9 /* demo_colorChangeTests.m */,
+				EB170B2819DE4C4F00F70DA9 /* Supporting Files */,
+			);
+			path = "demo-colorChangeTests";
+			sourceTree = "<group>";
+		};
+		EB170B2819DE4C4F00F70DA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB170B2919DE4C4F00F70DA9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB170B0A19DE4C4F00F70DA9 /* demo-colorChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB170B2E19DE4C4F00F70DA9 /* Build configuration list for PBXNativeTarget "demo-colorChange" */;
+			buildPhases = (
+				EB170B0719DE4C4F00F70DA9 /* Sources */,
+				EB170B0819DE4C4F00F70DA9 /* Frameworks */,
+				EB170B0919DE4C4F00F70DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "demo-colorChange";
+			productName = "demo-colorChange";
+			productReference = EB170B0B19DE4C4F00F70DA9 /* demo-colorChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB170B2319DE4C4F00F70DA9 /* demo-colorChangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB170B3119DE4C4F00F70DA9 /* Build configuration list for PBXNativeTarget "demo-colorChangeTests" */;
+			buildPhases = (
+				EB170B2019DE4C4F00F70DA9 /* Sources */,
+				EB170B2119DE4C4F00F70DA9 /* Frameworks */,
+				EB170B2219DE4C4F00F70DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB170B2619DE4C4F00F70DA9 /* PBXTargetDependency */,
+			);
+			name = "demo-colorChangeTests";
+			productName = "demo-colorChangeTests";
+			productReference = EB170B2419DE4C4F00F70DA9 /* demo-colorChangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB170B0319DE4C4F00F70DA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = StormXX;
+				TargetAttributes = {
+					EB170B0A19DE4C4F00F70DA9 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					EB170B2319DE4C4F00F70DA9 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = EB170B0A19DE4C4F00F70DA9;
+					};
+				};
+			};
+			buildConfigurationList = EB170B0619DE4C4F00F70DA9 /* Build configuration list for PBXProject "demo-colorChange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB170B0219DE4C4F00F70DA9;
+			productRefGroup = EB170B0C19DE4C4F00F70DA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB170B0A19DE4C4F00F70DA9 /* demo-colorChange */,
+				EB170B2319DE4C4F00F70DA9 /* demo-colorChangeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB170B0919DE4C4F00F70DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB170B1A19DE4C4F00F70DA9 /* Main.storyboard in Resources */,
+				EB170B1F19DE4C4F00F70DA9 /* LaunchScreen.xib in Resources */,
+				EB170B1C19DE4C4F00F70DA9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB170B2219DE4C4F00F70DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB170B0719DE4C4F00F70DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF97C2F19E12AC900509C39 /* KVO.m in Sources */,
+				EB170B3C19DE4F8600F70DA9 /* bgColor.m in Sources */,
+				EB170B3919DE4D7700F70DA9 /* Notification.m in Sources */,
+				EB170B1419DE4C4F00F70DA9 /* AppDelegate.m in Sources */,
+				EBF97C2E19E12AC900509C39 /* bgColor_kvo.m in Sources */,
+				EB170B1119DE4C4F00F70DA9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB170B2019DE4C4F00F70DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB170B2B19DE4C4F00F70DA9 /* demo_colorChangeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB170B2619DE4C4F00F70DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB170B0A19DE4C4F00F70DA9 /* demo-colorChange */;
+			targetProxy = EB170B2519DE4C4F00F70DA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB170B1819DE4C4F00F70DA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB170B1919DE4C4F00F70DA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB170B1D19DE4C4F00F70DA9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB170B1E19DE4C4F00F70DA9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB170B2C19DE4C4F00F70DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB170B2D19DE4C4F00F70DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB170B2F19DE4C4F00F70DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "demo-colorChange/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB170B3019DE4C4F00F70DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "demo-colorChange/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB170B3219DE4C4F00F70DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "demo-colorChangeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demo-colorChange.app/demo-colorChange";
+			};
+			name = Debug;
+		};
+		EB170B3319DE4C4F00F70DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "demo-colorChangeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demo-colorChange.app/demo-colorChange";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB170B0619DE4C4F00F70DA9 /* Build configuration list for PBXProject "demo-colorChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB170B2C19DE4C4F00F70DA9 /* Debug */,
+				EB170B2D19DE4C4F00F70DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB170B2E19DE4C4F00F70DA9 /* Build configuration list for PBXNativeTarget "demo-colorChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB170B2F19DE4C4F00F70DA9 /* Debug */,
+				EB170B3019DE4C4F00F70DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB170B3119DE4C4F00F70DA9 /* Build configuration list for PBXNativeTarget "demo-colorChangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB170B3219DE4C4F00F70DA9 /* Debug */,
+				EB170B3319DE4C4F00F70DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB170B0319DE4C4F00F70DA9 /* Project object */;
+}
